@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #1E3A8A; /* Royal Blue */
+    background-color: #030409; /* Royal Blue */
     color: white;
   }
   
@@ -33,10 +33,13 @@
   .login {
     background-color: #6B7280; /* Neutral Gray */
     color: white;
+    border-radius: 10px;
+
   }
   
   .signup {
     background-color: #FF6F61; /* Coral Pink */
     color: white;
+    border-radius: 10px;
   }
   

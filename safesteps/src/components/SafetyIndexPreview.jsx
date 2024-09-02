@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 import SafetyScoreModal from './SafetyScoreModal';
 import './SafetyIndexPreview.css';
 
+
+
 function SafetyIndexPreview() {
   const [selectedCity, setSelectedCity] = useState('');
   const [localities, setLocalities] = useState([]);
@@ -47,9 +49,30 @@ function SafetyIndexPreview() {
     setIsModalOpen(false);
   };
 
+
+
+  const [isHovered, setIsHovered] = useState(false);
+
+  const styles = {
+    padding: '20px',
+    backgroundColor: '#FFFFFF', /* Coral Pink */
+    WebkitBackgroundClip: 'text',
+    WebkitTextFillColor: 'transparent',
+    backgroundClip: 'text',
+    fontSize: '50px',
+    fontWeight: 400,
+    textAlign: 'center',
+    // textShadow: '2px 2px rgb(0, 0, 0)',
+    transition: 'transform 0.3s ease-in-out', // Animation for hover effect
+    transform: isHovered ? 'scale(1.1)' : 'scale(1)', // Scale on hover
+  };
+
   return (
     <section className="safety-index-preview">
-      <h2>Safety Index Preview</h2>
+      <h2 style={styles}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+      >Safety Index Preview</h2>
       <div className="map-container">
         {/* Replace with an actual map component or image */}
         <div className="map-container">

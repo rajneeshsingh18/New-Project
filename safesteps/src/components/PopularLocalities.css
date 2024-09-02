@@ -46,3 +46,61 @@
     cursor: pointer;
   }
   
+  .titlepopular {
+    color: white !important; /* Use !important if necessary to override other styles */
+  }
+
+
+
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+   
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+   
+  .box {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+   
+  .content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+  }
+   
+  .learn-more {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+   
+  .learn-more:hover {
+    background-color: #0056b3;
+  }

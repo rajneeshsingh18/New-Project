@@ -1,6 +1,6 @@
 /* HeroSection.css */
 .hero-section {
-    background-image: url('C:\Users\rajne\Desktop\New Project\safesteps\src\assets\Designer (5).jpeg'); /* Replace with your image path */
+    background-image: url('C:\Users\rajne\Desktop\New Project\safesteps\src\assets\Designer (6).jpeg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -28,6 +28,8 @@
   .cta-button {
     margin-top: 20px;
     padding: 15px 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
     background-color: #FF6F61; /* Coral Pink */
     color: white;
     border: none;
