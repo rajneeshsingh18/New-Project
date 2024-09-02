@@ -1,4 +1,4 @@
-/* UserTestimonials.css */
+UserTestimonials.css
 .user-testimonials {
     padding: 50px 20px;
     background-color: #F9FAFB; /* Light Gray Background */
@@ -32,5 +32,16 @@
   .testimonial-card h4 {
     font-size: 16px;
     color: #1E3A8A; /* Royal Blue */
+  }
+
+  .gradient-text {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Define your gradient colors */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make the text transparent */
+    background-clip: text; /* Standard property for clipping the background */
+    font-size: 50px;
+    font-weight: 400px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(0, 0, 0);
   }
   

@@ -15,8 +15,14 @@
     font-size: 40px;
     /* background-color: #FF6F61; */
 
-    color:  rgb(36, 32, 32);
-    text-shadow: 2px 2px hsl(0, 100%, 100%);
+    color:  rgb(255, 255, 255);
+    text-shadow: 1px 1px hsl(0, 0%, 0%);
+
+    backdrop-filter: blur(1px) saturate(180%);
+    -webkit-backdrop-filter: blur(1px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
   }
   
   .cta-button {
