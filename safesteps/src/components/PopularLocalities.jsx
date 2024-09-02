@@ -7,7 +7,7 @@ function PopularLocalities() {
     { 
       name: "Hauz Khas", 
       score: "Safe", 
-      image: "https://www.bing.com/ck/a?!&&p=7eef68f49ef5b9fbJmltdHM9MTcyNTE0ODgwMCZpZ3VpZD0xYWNlZjM2MS02ZTI5LTY4YzUtMDU3Zi1lN2Q4NmZkYjY5NTQmaW5zaWQ9NTU3Mg&ptn=3&ver=2&hsh=3&fclid=1acef361-6e29-68c5-057f-e7d86fdb6954&u=a1L2ltYWdlcy9zZWFyY2g_cT1oYXV6JTIwa2hhcyUyMGltYWdlcyZGT1JNPUlRRlJCQSZpZD05ODAxRjIxMEQxNzY4NTM3RDFEQzlBNzAwNzM3NkI3MDZDQzAwMkUx&ntb=1"
+      image: ""
   },
       { name: "Connaught Place", score: "Moderate", image: "/path/to/image5.jpg" },
     { name: "Saket", score: "Safe", image: "/path/to/image6.jpg" },
