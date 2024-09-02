@@ -1,0 +1,42 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1E3A8A; /* Royal Blue */
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav li {
+    cursor: pointer;
+  }
+  
+  .auth-buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login {
+    background-color: #6B7280; /* Neutral Gray */
+    color: white;
+  }
+  
+  .signup {
+    background-color: #FF6F61; /* Coral Pink */
+    color: white;
+  }
+  

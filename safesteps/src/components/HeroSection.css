@@ -1,0 +1,31 @@
+/* HeroSection.css */
+.hero-section {
+    background-image: url('C:\Users\rajne\Desktop\New Project\safesteps\src\assets\Designer (5).jpeg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .hero-content {
+    text-align: center;
+    font-size: 40px;
+    /* background-color: #FF6F61; */
+
+    color:  rgb(36, 32, 32);
+    text-shadow: 2px 2px hsl(0, 100%, 100%);
+  }
+  
+  .cta-button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #FF6F61; /* Coral Pink */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
